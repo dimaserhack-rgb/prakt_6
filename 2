@@ -1,0 +1,26 @@
+num = int(input("Введите число от 0 до 36:"))
+if num == 0:
+    print("Зелёный")
+
+elif 1 <= num <= 10 and num % 2 == 0:
+    print("Чёрный")
+elif 1 <= num <= 10 and num % 2 != 0:
+    print("Красный")
+
+elif 11 <= num <= 18 and num % 2 == 0:
+    print("Красный")
+elif 11 <= num <= 18 and num % 2 != 0:
+    print("Чёрный")
+
+elif 19 <= num <= 28 and num % 2 == 0:
+    print("Чёрный")
+elif 19 <= num <= 28 and num % 2 != 0:
+    print("Красный")
+
+elif 29 <= num <= 36 and num % 2 == 0:
+    print("Красный")
+elif 29 <= num <= 36 and num % 2 != 0:
+    print("Чёрный")
+
+else:
+    print("Ваше число не в диапозоне от 0 до 36")
